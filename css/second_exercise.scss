@@ -1,0 +1,48 @@
+$primary: rgb(123, 104, 238);
+$accent: rgb(237, 21, 245);
+$border: rgb(194, 191, 191);
+$breakpoint: "768px";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    text-align: center;
+    // border: solid 0.1px $border;
+    display: flex;
+
+    .feature {
+        width: 200px;
+        // border: solid 0.1px $border;
+        margin: 0 10px 0 10px;
+    }
+
+    .title {
+        text-transform: capitalize;
+        font-weight: 700;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .image {
+        height: 50px;
+        // width: 50px;
+
+        border-radius: 50%;
+        background: $accent;
+    }
+
+    .subtitle {
+        font-style: oblique;
+        line-height: 25px;
+        padding: 10px 10px 10px 10px;
+        color: grey;
+        font-size: 11px;
+        font-stretch: condensed;
+        
+    }
+}

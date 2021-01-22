@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper-fourth {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image {
+    height: 228px;
+}
+
+.main {
+    width: 228px;
+    height: 228px;
+    margin: 35px 20px auto;
+    background-color: black;
+    margin-top: 0px;
+}
+
+h5 {
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ff214f;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 14px;
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(179, 172, 172);
+    font-style: oblique;
+}
+
+.appendix {
+    text-decoration: none;
+    font-size: 10px;
+    color: #ff214f;
+    font-weight: 600;
+}

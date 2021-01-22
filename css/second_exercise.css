@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100vw;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .feature {
+  width: 200px;
+  margin: 0 10px 0 10px;
+}
+
+.wrapper .title {
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.wrapper .image {
+  height: 50px;
+  border-radius: 50%;
+  background: #ed15f5;
+}
+
+.wrapper .subtitle {
+  font-style: oblique;
+  line-height: 25px;
+  padding: 10px 10px 10px 10px;
+  color: grey;
+  font-size: 11px;
+  font-stretch: condensed;
+}
+/*# sourceMappingURL=second_exercise.css.map */

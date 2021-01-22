@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-second {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(245, 239, 239);
+}
+
+.left-column {
+    background-image: url(./komp.jpg);
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.right-column {
+    width: 30%;
+}
+
+.top {
+    
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+
+.h1-top {
+    color: purple;
+    font-size: 18px;
+   
+    letter-spacing: 1px;
+}
+.title {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.title + p {
+    font-size: 13px;
+}
+
+.columns {
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.left-feature {
+    
+    padding: 30px;
+}
+
+.title-left-feature {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px auto;
+}
+
+.title-left-feature + p {
+    font-size: 12px;
+}
+
+.bulb {
+    width: 30px;
+}
+
+.right-feature {
+    
+    padding: 30px;
+    margin-right: 50px;
+}
+
+.note {
+    width: 30px;
+    
+}
+
+.title-right-feature {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px auto 10px auto;
+    margin-bottom: 10px;
+}
+
+.title-right-feature + p {
+    font-size: 12px;
+    margin-top: 25px;
+}
